@@ -16,6 +16,7 @@ public class MainMenu extends AppCompatActivity {
 
     public void startTheGame(View view) {
         Intent getGameScreen = new Intent(this, Game.class);
+        startActivity(getGameScreen);
     }
 
 
